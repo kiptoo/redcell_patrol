@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Main
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content style="padding-left: 40px" padding id="page1">
+  <div id="page-container1">
+    <h1 id="page-heading1" style="color:#000000;padding-left: 40px">
+      REDCELL PATROL
+    </h1>
+  </div>
+  <ion-list  style="border: 1px solid "id="page-list3">
+    <ion-item color="none" id="page-list-item4">
+      <ion-avatar item-left>
+        <img src="assets/img/3P5wfcfQfqT0vogYWZEC_avatar.png" />
+      </ion-avatar>
+      <h2>
+        User : {{name}}
+      </h2>
+    </ion-item>
+        <ion-item color="none" id="page-list-item5">
+      <ion-icon name="pin" item-left></ion-icon>
+      Site : {{sitename}}
+    </ion-item>
+    <ion-item color="none" id="page-list-item6">
+      <ion-icon name="time" item-left></ion-icon>
+      Last Scan : 11/02/2018
+    </ion-item>
+  </ion-list>
+     <div padding></div>
+  <button id="page-button1" ion-button color="assertive" block icon-left style="border-radius:5px 5px 5px 5px; background-color:maroon" (click)="scan()">
+    <ion-icon icon-left  style="position: absolute;padding-left:16px; left: 0px" name="qr-scanner"></ion-icon>
+    Scan
+  </button>
+     <div padding></div>
+  <button id="page-button2" ion-button color="assertive" block icon-left style="border-radius:5px 5px 5px 5px;" (click)="prev_scan()">
+    <ion-icon style="position: absolute;padding-left:16px; left: 0px" name="list"></ion-icon>
+    Previous Scans
+  </button>
+   <div padding></div>
+  <button id="page-button3" ion-button color="positive" block icon-left style="border-radius:5px 5px 5px 5px;"  (click)="logout()">
+    <ion-icon  style="position: absolute;padding-left:16px; left: 0px" name="log-out"></ion-icon>
+    Log Out
+  </button>
+</ion-content>

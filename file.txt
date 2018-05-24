@@ -1,0 +1,4 @@
+ANDROID_HOME=C:\AndroidSDK\bin
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_101
+Subproject Path: CordovaLib
+Unzipping C:\Users\KIP\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9\gradle-3.3-all.zip to C:\Users\KIP\.gradle\wrapper\dists\gradle-3.3-all\55gk2rcmfc6p2dg9u9ohc3hw9

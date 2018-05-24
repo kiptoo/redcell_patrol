@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Log In Page</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+ <form  [formGroup]="userForm" id="login-form1" class="list">
+  <ion-list>
+
+    <ion-item>
+      <ion-label fixed>Username</ion-label>
+      <ion-input class="form-control" formControlName="username" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label fixed>Password</ion-label>
+      <ion-input class="form-control" formControlName="password" type="password"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <div padding>
+    <button ion-button color="primary" style="background: grey" block (click)="openPage()" >Sign In</button>
+  </div>
+ </form>
+
+</ion-content>

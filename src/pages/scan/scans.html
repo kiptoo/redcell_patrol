@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Previous Scans</ion-title>
+  </ion-navbar>
+</ion-header>
+
+  <ion-content padding="true" class="has-header">
+    <div id="scanlist-container3">
+      <ion-list *ngFor="let scan  of Scans" id="scanlist-list4">
+        <div class="item item-body" id="scanlist-list-item-container3">
+          <div id="scanlist-markdown4" class="show-list-numbers-and-dots">
+            <p style="margin-top:0px;color:#000000;">Stop :{{scan.tourstop.stopname}}</p>
+          </div>
+        </div>
+        <ion-item class="item-thumbnail-left" id="scanlist-list-item11">
+          <h2></h2>
+          <p style="white-space:normal;">Date :{{scan.date}}</p>
+        </ion-item>
+       
+      </ion-list>
+    </div>
+  </ion-content>
